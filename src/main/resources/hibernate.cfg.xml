@@ -19,7 +19,13 @@
         <property name="hibernate.show_sql" >true </property>
         <property name="hibernate.format_sql" >true </property>
 
+        <!-- Validate the database schema on startup
+        <property name="hbm2ddl.auto>validate</property>-->
         <!--   Mapping entity file -->
-        <mapping class="com.test.hib.model.User"/>
+        <mapping class="com.test.hib.model.Employee"/>
     </session-factory>
+
+
+
 </hibernate-configuration>
+
